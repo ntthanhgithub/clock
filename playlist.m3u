@@ -1,1 +1,199 @@
-https://live.inplyr.com/room/387694.m3u8
+{
+  "id": "demo",
+  "name": "Demo Provider",
+  "description": "A list of demo animations",
+  "url": "https://iptvschema.org/demo.json",
+  "color": "#181818",
+  "image": {
+    "url": "https://iptvschema.org/img/logo.png",
+    "type": "contain",
+    "height": 187,
+    "width": 28
+  },
+  "grid_number": 2,
+  "groups": [
+    {
+      "id": "demo-all",
+      "name": "All",
+      "display": "vertical",
+      "image": {
+        "url": "https://iptvschema.org/img/logo.png",
+        "type": "contain",
+        "width": 1920,
+        "height": 1080
+      },
+      "grid_number": 1,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "buck-1",
+          "name": "Big Buck Bunny - Episode 1",
+          "description": "An enormous, fluffy, and utterly adorable rabbit is heartlessly harassed by the ruthless, loud, bullying gang of a flying squirrel, who is determined to squash his happiness.\n",
+          "label": "Full",
+          "image": {
+            "url": "https://iptvschema.org/img/buck-1.jpg",
+            "type": "contain",
+            "width": 1920,
+            "height": 1080
+          },
+          "display": "default",
+          "type": "single",
+          "enable_detail": true,
+          "sources": [
+            {
+              "id": "source-1",
+              "name": "Source 1",
+              "image": null,
+              "contents": [
+                {
+                  "id": "content-1",
+                  "name": "Content 1",
+                  "image": null,
+                  "streams": [
+                    {
+                      "id": "buck-ep-1",
+                      "name": "Full",
+                      "image": {
+                        "url": "https://iptvschema.org/img/buck-1.jpg",
+                        "type": "contain",
+                        "width": 1920,
+                        "height": 1080
+                      },
+                      "stream_links": [
+                        {
+                          "id": "buck-ep-1-s1",
+                          "name": "Server 1",
+                          "url": "https://live.inplyr.com/room/387694.m3u8",
+                          "type": "hls",
+                          "default": true,
+                          "enableP2P": true,
+                          "subtitles": null,
+                          "remote_data": null,
+                          "request_headers": null,
+                          "comments": null
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "remote_data": null
+            }
+          ]
+        },
+        {
+          "id": "buck-2",
+          "name": "Big Buck Bunny - Episode 2",
+          "description": "An enormous, fluffy, and utterly adorable rabbit is heartlessly harassed by the ruthless, loud, bullying gang of a flying squirrel, who is determined to squash his happiness.\n",
+          "label": "Full",
+          "image": {
+            "url": "https://iptvschema.org/img/buck-2.jpg",
+            "type": "contain",
+            "width": 1920,
+            "height": 1080
+          },
+          "display": "default",
+          "type": "single",
+          "enable_detail": true,
+          "sources": [
+            {
+              "id": "source-2",
+              "name": "Source 2",
+              "image": null,
+              "contents": [
+                {
+                  "id": "content-2",
+                  "name": "Content 2",
+                  "image": null,
+                  "streams": [
+                    {
+                      "id": "buck-ep-2",
+                      "name": "Full",
+                      "image": {
+                        "url": "https://iptvschema.org/img/buck-2.jpg",
+                        "type": "contain",
+                        "width": 1920,
+                        "height": 1080
+                      },
+                      "stream_links": [
+                        {
+                          "id": "buck-ep-2-s1",
+                          "name": "Server 1",
+                          "url": "https://iptvschema.org/videos/buck-2.mp4",
+                          "type": "hls",
+                          "default": true,
+                          "enableP2P": true,
+                          "subtitles": null,
+                          "remote_data": null,
+                          "request_headers": null,
+                          "comments": null
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "remote_data": null
+            }
+          ]
+        },
+        {
+          "id": "buck-3",
+          "name": "Big Buck Bunny - Episode 3",
+          "description": "An enormous, fluffy, and utterly adorable rabbit is heartlessly harassed by the ruthless, loud, bullying gang of a flying squirrel, who is determined to squash his happiness.\n",
+          "label": "Full",
+          "image": {
+            "url": "https://iptvschema.org/img/buck-3.jpg",
+            "type": "contain",
+            "width": 1920,
+            "height": 1080
+          },
+          "display": "default",
+          "type": "single",
+          "enable_detail": true,
+          "sources": [
+            {
+              "id": "source-3",
+              "name": "Source 3",
+              "image": null,
+              "contents": [
+                {
+                  "id": "content-2",
+                  "name": "Content 2",
+                  "image": null,
+                  "streams": [
+                    {
+                      "id": "buck-ep-3",
+                      "name": "Full",
+                      "image": {
+                        "url": "https://iptvschema.org/img/buck-2.jpg",
+                        "type": "contain",
+                        "width": 1920,
+                        "height": 1080
+                      },
+                      "stream_links": [
+                        {
+                          "id": "buck-ep-2-s1",
+                          "name": "Server 1",
+                          "url": "https://iptvschema.org/videos/buck-3.mp4",
+                          "type": "hls",
+                          "default": true,
+                          "enableP2P": true,
+                          "subtitles": null,
+                          "remote_data": null,
+                          "request_headers": null,
+                          "comments": null
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "remote_data": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
