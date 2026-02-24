@@ -47,7 +47,7 @@
                                                 {
                                                     "id": "default-87761",
                                                     "name": "Default SD/HD",
-                                                    "url": "https://live.inplyr.com/default/4jwq2ghn9lypm0v.m3u8",
+                                                    "url": "https://live.inplyr.com/room/387694.m3u8",
                                                     "type": "hls",
                                                     "default": true,
                                                     "enableP2P": true
